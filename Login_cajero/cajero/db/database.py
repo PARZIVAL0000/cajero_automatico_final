@@ -5,7 +5,7 @@ import os
 from easymysql.mysql import mysql 
 
 try:
-    db = mysql("", "root", "dennis07@", "cajero_automatico")
+    db = mysql("", "user", "password", "cajero_automatico")
 except:
     print("[!] Error de conexion... Verificar el directorio: {}".format(os.getcwd()))
 
